@@ -1,0 +1,102 @@
+.container {
+   margin: 50px;
+   font-family: 'Verdana';
+   font-size: 14px;
+}
+
+.notesWrapper {
+   margin-bottom: 30px;
+}
+
+.headerWrapper {
+   display: flex;
+   align-items: center;
+   margin-bottom: 20px;
+}
+
+.header {
+   margin: 0 30px 0 0;
+   font-size: 28px;
+   font-weight: 400;
+}
+
+.btn {
+   width: 40px;
+   height: 40px;
+   background-color: white;
+   border: 1px solid black;
+   border-radius: 50%;
+}
+
+.btn::before {
+   font-family: 'Font Awesome 6 Free';
+   font-weight: bold;
+   font-size: 16px;
+}
+
+.reloadBtn::before {
+   content: '\f2f1';
+   color: rgb(31, 177, 31);
+}
+
+.panel {
+   display: flex;
+   flex-wrap: wrap;
+   margin-bottom: 40px;
+}
+
+.note {
+   position: relative;
+   width: 200px;
+   margin: 40px 40px 0 0;
+   height: fit-content;
+   border: 1px solid black;
+   padding: 25px;
+}
+
+.delBtn {
+   position: absolute;
+   top: -20px;
+   right: -20px;
+}
+
+.delBtn::before {
+   content: '\f00d';
+   color: rgb(177, 31, 43);
+}
+
+.text {
+   margin: 0;
+}
+
+label {
+   display: block;
+   margin-bottom: 20px;
+}
+
+.inputWrapper {
+   position: relative;
+   border: 1px solid black;
+   width: fit-content;
+}
+
+.field {
+   font-family: 'Verdana';
+   width: 380px;
+   height: 100px;
+   padding: 10px 60px 10px 10px;
+   border: none;
+   font-size: 14px;
+   resize: none;
+   outline: none;
+}
+
+.submitBtn {
+   position: absolute;
+   top: 75px;
+   left: 400px;
+}
+
+.submitBtn::before {
+   content: '\f061';
+}
